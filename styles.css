@@ -13,12 +13,17 @@
     background-color: #fff;
     height: 20px;
     width: 100%;
+    margin-top: -20px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 0px 10px 20px 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+
 
     .left{
         display: flex;
@@ -53,6 +58,7 @@ nav {
         align-items: center;
         gap: 30px;
         margin-top: 20px;
+        margin-left: 200px;
 
         #glass{
             color: var(--main-colour);
@@ -72,11 +78,13 @@ nav {
         }
       }
     }
-    .hero-video{
-        background-size: cover;
+    video{
         padding: 0;
         margin: 0;
-        position: absolute;
+        width: 100%;
+        margin-top: 110px;
+        height: 600px;
+        width: 100%;
     }
 
 #arrow{
@@ -85,13 +93,13 @@ nav {
 }
 .info{
     position: relative;
-    top: 349px;
-    left: 30px;
+    top: -306px;
+    left: 47px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     background-color: var(--main-colour);
     width: 40%;
-    margin: 0 62px;
+    margin: 0 60px;
     padding: 25px;
     color: #fff;
         h1{
@@ -136,3 +144,145 @@ nav {
         }
     }
 }
+.hero-down{
+    background-color: #f8f8f8;
+    width: auto;
+    height: auto;
+    margin-top: -308px;
+
+    .hero-down-content{
+        background-color: #fff;
+
+        h2{
+            font-size: 35px;
+            margin-top: 100px;
+            margin-left: 300px;
+            margin-right: auto;
+        }
+
+        .circle-elements{
+            margin-top: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 250px;
+            height: auto;
+            margin-bottom: 150px;
+
+        .circle-elements-details{
+            display: flex;
+            padding-top: 129px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: teal;
+
+            h3{
+                padding-top: 60px;
+                font-size: 28px;
+            }
+            #hand{
+                color: #fff;
+                font-size: 50px;
+                margin: 20px;
+
+               
+
+            }
+        }
+        .circle-elements-details-two{
+            display: flex;
+            padding-top: 129px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: teal;
+
+            h3{
+                padding-top: 60px;
+                font-size: 28px;
+            }
+            #hand{
+                color: #fff;
+                font-size: 50px;
+                margin: 20px;
+
+               
+
+            }
+        }
+        .circle-elements-details-two{
+            display: flex;
+            padding-top: 129px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: rgb(255, 100, 126);
+
+            h3{
+                padding-top: 60px;
+                font-size: 28px;
+            }
+            #hand{
+                color: #fff;
+                font-size: 50px;
+                margin: 20px;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                width: 280px;
+                align-items: center;
+            }
+        }
+        .circle-elements-details-three{
+            display: flex;
+            padding-top: 129px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: rgb(188, 43, 188);
+
+            h3{
+                padding-top: 60px;
+                font-size: 28px;
+            }
+            #hand{
+                color: #fff;
+                font-size: 50px;
+                margin: 20px;
+
+               
+
+            }
+        }
+        }
+        .hand-button{
+            padding: 10px;
+            width: 310px;
+            height: 50px;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+            background-color: var(--main-colour);
+            border: none;
+            cursor: pointer;
+            margin-left: 40%;
+            margin-right: 50%;
+            margin-bottom: 50px;
+        }
+    }
+    }
