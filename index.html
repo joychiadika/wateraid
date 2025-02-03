@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+      </script>
 </head>
 <body>
   <header>
@@ -70,5 +73,89 @@
       </div>
     </div>
   </section>
+  <section class="stop-section">
+    <h2>We won't stop until everyone, everywhere has clean water</h2>
+    <div class="wrap-section">
+      <div class="image-tab">
+        <img src="https://www.wateraid.org/uk/sites/g/files/jkxoof211/files/styles/landscape_in_content_medium/public/ganga-drinks-a-glass-of-clean-water-with-grandmother-shyamoli-bhetkhali-satkhira-bangladesh-june-2023.jpg?itok=gE4mWt6v" width="600px" height="400" alt="" />
+      </div>
+      <div class="tab-wrap">
+        <div class="tab-header-wrapper">
+          <div class="tab-heade">
+            <span class="tab-heade-sp" onClick="GFG_Fun()"><a href="#whoweare">1</a></span>
+            <span class="tab-heade-sp" onClick="GFG_Fun()"><a href="#whoweare">1 Who We are</a></span>
+          </div>
+          <div class="tab-header" onClick="GHG_We()"><a href="#whatwedo">2 What We Do</a></div>
+          <div class="tab-header" onClick="GHG_Fe()"><a href="#whereitgoes">3 Where your money goes</a></div>
+        </div>
+        <div class="tab-wrap-container">
+          <div class="tab-wrap-content" id="whoweare">
+            <h2><a href="#">Who We Are</a></h2>
+            <p><a href="#">We're an international not-for-profit organisation, determined to make clean water, decent toilets and good hygiene normal for everyone, everywhere.</a></p>
+            <p class="tab-wrap-button"><b><a href="#"><i class="fa-solid fa-arrow-right"></i>Find out who we are</a></b></p>
+          </div>
+          <div class="tab-wrap-content" id="whatwedo">
+            <h2><a href="#">What We do</a></h2>
+            <p><a href="#">We work with our supporters, partners and local communities so that everyone around the world has clean water, decent toilets and good hygiene.</a></p>
+            <p class="tab-wrap-button"><b><a href="#"><i class="fa-solid fa-arrow-right"></i>Find out what we do</a></b></p>
+          </div>
+          <div class="tab-wrap-content" id="whereitgoes">
+            <h2><a href="#">Where your money goes</a></h2>
+            <p><a href="#">Your generous support changes lives. Every donation you make brings us one step closer to a world where everyone has access to their basic human rights of clean water and decent toilets.</a></p>
+            <p class="tab-wrap-button"><b><a href="#"><i class="fa-solid fa-arrow-right"></i>Find out where your money goes</a></b></p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <div><img src="./images/wateraid-tall.webp" class="image"/></div>
+    <div class="intouch">
+      <h4>Get in touch</h4>
+      <p>Contact us</p>
+      <p>Corporate partnerships</p>
+      <p>Jobs</p>
+      <p>Media</p>
+      <p>Shop gifts</p>
+      <p>Shop merchandise</p>
+    </div>
+    <div class="information">
+      <h4>Useful information</h4>
+      <p>FAQs</p>
+      <p>Our annual reports</p>
+      <p>Our founding partners</p>
+      <p>Publications</p>
+    </div>
+    <div class="policies">
+      <h4>Our Policies</h4>
+      <p>Anti-racism</p>
+      <p>Modern Slavery Act statement</p>
+      <p>Safeguarding</p>
+      <p>Gambling policies</p>
+      <p>Website accessibility statement</p>
+    </div>
+    <div class="footer-button">
+      <h4>Donate</h4>
+    </div>
+  </div>
+  <script>
+
+    function toggler(divId) {
+        $("#" + divId).toggle();
+    }
+
+    function GFG_Fun() {
+            toggler('whoweare');
+            $('').text("");
+    }
+    function GHG_We() {
+            toggler('whatwedo');
+            $('#whoweare').text("");
+    }
+    function GHG_Fe() {
+            toggler('whereitgoes');
+            $('#whoweare').text("");
+    }
+</script>
 </body>
 </html>
